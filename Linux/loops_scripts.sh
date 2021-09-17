@@ -1,4 +1,4 @@
-ackages=(
+packages=(
     'nano'
     'wget'
     'net-tools'
