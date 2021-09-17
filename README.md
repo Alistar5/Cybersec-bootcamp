@@ -8,9 +8,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [install_elk_playbook.yml] Cybersec-bootcamp/Ansible/install_elk_playbook.yml
-  - [install_filebeat_playbook.yml] Cybersec-bootcamp/Ansible/install_filebeat_playbook.yml
-  - [install_metricbeat_playbook.yml] Cybersec-bootcamp/Ansible/install_metricbeat_playbook.yml
+  - [install_elk_playbook.yml](Cybersec-bootcamp/Ansible/install_elk_playbook.yml)
+  - [install_filebeat_playbook.yml](Cybersec-bootcamp/Ansible/install_filebeat_playbook.yml)
+  - [install_metricbeat_playbook.yml](Cybersec-bootcamp/Ansible/install_metricbeat_playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -100,4 +100,3 @@ SSH into the control node and follow the steps below:
 - The hosts file in /etc/ansible is edited to select which machines the playbooks are run on, different groups in the host files are used to distuingish which machines get different playbooks.
 - Navigate to http://[your.ELK-VM.External.IP]:5601/app/kibana to verify your ELK installation is working.
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
